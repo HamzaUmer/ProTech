@@ -1,0 +1,11 @@
+f1=10;
+f2=110;
+fs=100;
+t1=0:1/fs:1/f1;
+t2=0:1/fs:11/f2;
+x1=sin(2*pi*f1*t1)
+x2=sin(2*pi*f2*t2)
+subplot(2,1,1)
+stem(t1,x1)
+subplot(2,1,2)
+stem(t2,x2)
